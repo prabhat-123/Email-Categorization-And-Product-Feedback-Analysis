@@ -93,9 +93,10 @@ To explore this POC, follow these steps:
 2. Before running any files, you have to set up  virtual environment.
 
    ##### i) First of all you have to install virtual environment tool to create one.
+   
    For installation:
    ```
-      python -m pip install --user virtualenv
+   python -m pip install --user virtualenv
    ```
       
    ##### Recommended
