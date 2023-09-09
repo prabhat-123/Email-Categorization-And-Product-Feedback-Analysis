@@ -52,7 +52,9 @@ In our innovative approach, we rely on OpenAI's advanced capabilities to generat
 Located inside the 'src' folder, you'll find the 'data_generator.py' file. This file employs prompt engineering techniques to harness OpenAI's power in creating datasets. It generates a dataset with 450 rows and compiles them into an 'email.txt' file, providing us with a diverse set of emails for different use cases.
 
 **Folder Name:** 'src'
+
 **Python File Name:** 'data_generator.py'
+
 **Output Generated:** 'email.txt'
 
 ## Enhancing Data Variability 🔄
@@ -60,7 +62,9 @@ Located inside the 'src' folder, you'll find the 'data_generator.py' file. This 
 Within the same 'src' folder, you'll discover the 'data_preprocessing.py' file. This script plays a vital role in processing our generated data, introducing variations to mitigate the repetition of phrases that can occur during email generation by OpenAI. The outcome of this process is the 'prod_email.csv' file, a rich dataset that we utilize to train our custom models for both email sentiment analysis and product categorization.
 
 **Folder Name:** 'src'
+
 **Python File Name:** 'data_preprocessing.py'
+
 **Output Generated:** 'prod_email.csv'
 
 
