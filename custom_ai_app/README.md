@@ -67,6 +67,30 @@ Within the same 'src' folder, you'll discover the 'data_preprocessing.py' file. 
 
 **Output Generated:** 'prod_email.csv'
 
+# Custom Model Training 🧠
+
+In our project, we've developed two distinct models: one for product categorization and another for customer sentiment analysis.
+
+## Customer Sentiment Analysis Model 📊
+
+To train the customer sentiment analysis model, follow these steps:
+
+1. Navigate to the 'notebooks' directory.
+2. Open the 'email_sentiment_classification_using_tfidf.ipynb' notebook.
+3. Execute the notebook meticulously to train the custom model.
+
+Upon successful execution, the following three models will be generated and stored inside the 'models' directory:
+
+- `classifier_model.pkl`: The trained model for customer sentiment analysis.
+- `label_encoder.pkl`: A label encoder for mapping sentiment labels.
+- `tfidf_vectorizer.pkl`: The TF-IDF vectorizer used for text feature extraction.
+
+These models collectively enable the analysis of customer sentiment in emails.
+
+Please ensure that you follow the instructions in the notebook diligently to train the model effectively.
+
+
+
 
 By combining our custom model with OpenAI's expertise, we've crafted a prototype solution to handle product categorization, email sentiment analysis, and even generate compelling product titles. 🌈💼
 
