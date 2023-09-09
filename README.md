@@ -77,13 +77,13 @@ The Email Categorization and Product Feedback Analysis POC project was built usi
    - Python Multipart was utilized for handling file uploads and data transmission within the application.
 
 7. **openai==0.27.8** 🤖
-   - The OpenAI library enabled integration with the GPT-3 language model for natural language processing tasks, including email analysis and prompt engineering.
+   - The OpenAI library enabled integration with the GPT-3.5 language model for natural language processing tasks, including email analysis and prompt engineering.
 
 8. **spacy==3.5.3** 🌐
-   - spaCy provided essential NLP capabilities, such as text preprocessing, entity recognition, and linguistic analysis.
+   - spaCy provided essential NLP capabilities, such as text preprocessing, named entity recognition, and linguistic analysis.
 
 9. **gdown==4.7.1** 📥
-   - gdown was used for downloading large datasets and model files from online sources, facilitating data acquisition.
+   - gdown was used for downloading large datasets and model files from online sources, facilitating data acquisition from google drive.
 
 10. **scikit-learn==1.2.2** 🧠
     - Scikit-learn contributed to machine learning tasks, including model training, evaluation, and classification.
@@ -95,7 +95,7 @@ The Email Categorization and Product Feedback Analysis POC project was built usi
 
 To reproduce the results of this project, it is recommended to set up a Python 3.8.0 environment, as the project has not been tested on other Python versions.
 
-These technologies and libraries collectively empowered the Email Categorization and Product Feedback Analysis POC, enabling efficient data processing, analysis, and interaction.
+These technologies and libraries collectively empowered Email Categorization and Product Feedback Analysis POC, enabling efficient data processing, analysis, and interaction.
 
 
 ## Getting Started
