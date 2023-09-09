@@ -24,21 +24,32 @@ The prototype includes the following key features: 🧩
 
 ## Approaches
 
-### OpenAI Language Model
-🌐 Harnessing the Power of Large Language Models (LLMs) 🌐
+### 1. Custom AI Model Approach
 
-Recognizing the limitations of the custom model, we turned to OpenAI's powerful language models. Leveraging state-of-the-art LLMs and prompt engineering techniques, we were able to achieve remarkable results in email categorization and product feedback analysis. This approach demonstrates the incredible potential of AI technologies.
+**Source Code:** [custom_ai_app](/custom_ai_app)
 
-You can explore the source code for this approach in the `openai_app` directory.
+🧠 We initially attempted to create our custom AI model to address the problem. However, we encountered challenges in obtaining a sufficiently large and diverse real dataset to achieve the desired accuracy.
 
-## Results
-Our Proof of Concept (POC) showcases the effectiveness of both approaches, highlighting the versatility of AI technologies in solving complex problems.
+**Challenges Faced:**
 
-- The custom model approach provides valuable insights into the challenges of building specialized models and the importance of data quality.
+- **Data Availability:** Finding a good enough real dataset proved to be challenging.
+- **Model Training:** Training a custom model required significant computational resources.
 
-- The OpenAI Language Model approach demonstrates the ease of use and impressive performance that can be achieved with cutting-edge language models.
+**Results:** Despite the challenges, our custom model showcases the potential for solving the problem statement.
 
-🚀 Feel free to explore the code and documentation in each directory to learn more about our journey and solutions!
+### 2. OpenAI's Language Model Approach
+
+**Source Code:** [openai_app](/openai_app)
+
+🤖 As an alternative, we leveraged the power of large language models (LLMs) like OpenAI's GPT-3. We used prompt engineering techniques to harness the capabilities of GPT-3 for email categorization and feedback analysis.
+
+**Key Advantages:**
+
+- **Vast Knowledge:** LLMs have access to a vast amount of knowledge and context.
+- **Rapid Prototyping:** Prompt engineering allows for rapid development and experimentation.
+
+**Results:** Using GPT-3, we achieved impressive results in email categorization and feedback analysis.
+
 
 ## Getting Started
 
