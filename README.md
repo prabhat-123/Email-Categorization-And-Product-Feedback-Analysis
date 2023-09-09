@@ -106,7 +106,7 @@ To explore this POC, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/jranand01/TM-python-search.git
+   https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis.git
    ```
 
 2. Navigate to the cloned directory:
