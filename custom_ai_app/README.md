@@ -100,6 +100,8 @@ To utilize the trained model for sentiment analysis, follow these steps:
 Upon executing the notebook, you will generate:
 
 - **Output**: Sentiment analysis results for emails.
+- ![Screenshot from 2023-09-09 22-46-18](https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis/assets/37154253/e47178d6-5520-4382-8bf3-268d1cf53666)
+
 
 This notebook is designed to facilitate the practical application of the trained model for analyzing the sentiment of emails.
 
