@@ -1,0 +1,10 @@
+import os
+current_dir = os.getcwd()
+OPENAI_API_PATH = os.path.join(os.path.dirname(current_dir), "tm_api_key.txt")
+RAW_DATA_PATH = os.path.join(os.path.dirname(current_dir), "data", "product_sentiment_analysis.csv")
+CLEAN_DATA_PATH = os.path.join(os.path.dirname(current_dir), "data", "prod_email.csv")
+TEXT_FILE_PATH = os.path.join(os.path.dirname(current_dir), "data", "email.txt")
+CLASSIFIER_PATH = os.path.join(os.path.dirname(os.getcwd()), "models", "classifier_model.pkl")
+LABEL_ENCODER_PATH = os.path.join(os.path.dirname(os.getcwd()), "models", "label_encoder.pkl")
+TFIDF_VECTORIZER_PATH = os.path.join(os.path.dirname(os.getcwd()), "models", "tfidf_vectorizer.pkl")
+NER_MODEL_PATH = os.path.join(os.path.dirname(os.getcwd()), "models", "model-best")

@@ -1,0 +1,6 @@
+data/
+models/
+ner_config/
+.ipynb_checkpoints/
+__pycache__/
+tm_api_key.txt
