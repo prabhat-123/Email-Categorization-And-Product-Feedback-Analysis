@@ -74,6 +74,8 @@ We recommend against generating a custom dataset using OpenAI due to potential c
 
 Instead, you can conveniently download the pre-generated dataset from the following Google Drive link:
 
+**Download this dataset and save it under the 'data' directory**:
+
 [Download Generated Dataset](https://drive.google.com/file/d/1OZF8Us5AQBHIwV_SQWV9Rm7fNCz_WuFB/view?usp=drive_link)
 
 This pre-existing dataset is readily available for your use, saving you both time and resources.
