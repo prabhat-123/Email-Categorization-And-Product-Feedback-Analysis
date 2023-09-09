@@ -41,7 +41,7 @@ The prototype includes the following key features: 🧩
 
 **Source Code:** [openai_app](/openai_app)
 
-🤖 As an alternative, we leveraged the power of large language models (LLMs) like OpenAI's GPT-3. We used prompt engineering techniques to harness the capabilities of GPT-3 for email categorization and feedback analysis.
+🤖 As an alternative, we leveraged the power of large language models (LLMs) like OpenAI's GPT-3.5. We used prompt engineering techniques to harness the capabilities of GPT-3.5 for email categorization and feedback analysis.
 
 **Key Advantages:**
 
