@@ -94,8 +94,13 @@ After successfully training the customer sentiment analysis model using the 'ema
 
 To utilize the trained model for sentiment analysis, follow these steps:
 
-1. Locate and open the 'email_sentiment_classification_inference.ipynb' notebook.
-2. Execute the notebook as instructed to perform sentiment analysis on emails.
+1. **Location**: Navigate to the 'notebooks' directory.
+2. **File Name**: Open the 'email_sentiment_classification_inference.ipynb' notebook.
+3. Execute the notebook as instructed to perform sentiment analysis on emails.
+
+Upon executing the notebook, you will generate:
+
+- **Output**: Sentiment analysis results for emails.
 
 This notebook is designed to facilitate the practical application of the trained model for analyzing the sentiment of emails.
 
