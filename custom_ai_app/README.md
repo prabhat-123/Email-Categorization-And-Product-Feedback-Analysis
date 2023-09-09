@@ -61,11 +61,11 @@ Located inside the **'src'** folder, you'll find the **'data_generator.py'** fil
 
 Within the same 'src' folder, you'll discover the 'data_preprocessing.py' file. This script plays a vital role in processing our generated data, introducing variations to mitigate the repetition of phrases that can occur during email generation by OpenAI. The outcome of this process is the 'prod_email.csv' file, a rich dataset that we utilize to train our custom models for both email sentiment analysis and product categorization.
 
-**Folder Name:** 'src'
+**Folder Name:** **'src'**
 
-**Python File Name:** 'data_preprocessing.py'
+**Python File Name:** **'data_preprocessing.py'**
 
-**Output Generated:** 'prod_email.csv'
+**Output Generated:** **'prod_email.csv'**
 
 # Custom Model Training 🧠
 
