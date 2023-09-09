@@ -86,8 +86,20 @@ Upon successful execution, the following three models will be generated and stor
 - `tfidf_vectorizer.pkl`: The TF-IDF vectorizer used for text feature extraction.
 
 These models collectively enable the analysis of customer sentiment in emails.
-
 Please ensure that you follow the instructions in the notebook diligently to train the model effectively.
+
+# Model Inference for Email Sentiment Analysis 📝
+
+After successfully training the customer sentiment analysis model using the 'email_sentiment_classification_using_tfidf.ipynb' notebook, you can perform inference using the 'email_sentiment_classification_inference.ipynb' notebook.
+
+To utilize the trained model for sentiment analysis, follow these steps:
+
+1. Locate and open the 'email_sentiment_classification_inference.ipynb' notebook.
+2. Execute the notebook as instructed to perform sentiment analysis on emails.
+
+This notebook is designed to facilitate the practical application of the trained model for analyzing the sentiment of emails.
+
+Feel free to use this notebook to gain insights into email sentiments after training the model.
 
 
 
