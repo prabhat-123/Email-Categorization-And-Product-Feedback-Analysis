@@ -102,15 +102,39 @@ These technologies and libraries collectively empowered Email Categorization and
 
 To explore this POC, follow these steps:
 
-1. **Clone the Repository:** Clone this repository to your local machine. 🖥️
+### Installation and Setup
 
-2. **Setup:** Follow the setup instructions in the `README` or `setup.md` file for any specific environment configurations. ⚙️
+1. Clone the repository:
+   ```
+   git clone https://github.com/jranand01/TM-python-search.git
+   ```
 
-3. **Run the Prototype:** Execute the prototype code to see how email categorization and feedback analysis work. 🚀
+2. Navigate to the cloned directory:
+   ```
+   cd TM-python-search
+   ```
 
-## Feedback and Contributions
+3. Create a Python virtual environment:
+   ```
+   python -m venv env
+   ```
 
-This is a proof of concept project, and we welcome feedback and contributions to help improve and extend its capabilities. Please feel free to open issues, provide suggestions, or submit pull requests. 🙌🤝
+4. Activate the virtual environment:
+   - For Windows:
+     ```
+     env\Scripts\activate
+     ```
+   - For macOS/Linux:
+     ```
+     source env/bin/activate
+     ```
+
+5. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Usage
 
 ## License
 
