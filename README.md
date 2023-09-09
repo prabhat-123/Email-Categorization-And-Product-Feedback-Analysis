@@ -109,12 +109,18 @@ To explore this POC, follow these steps:
    https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis.git
    ```
 
-2. Navigate to the cloned directory:
-   ```
-   cd TM-python-search
-   ```
+2. Before running any files, you have to set up  virtual environment.
 
-3. Create a Python virtual environment:
+   ##### i) First of all you have to install virtual environment tool to create one.
+   For installation:   
+      python -m pip install --user virtualenv
+      
+      
+   ##### Recommended
+   For installing a virtual environment on Anaconda Prompt(Windows):
+
+       conda install -c anaconda virtualenv
+
    ```
    python -m venv env
    ```
