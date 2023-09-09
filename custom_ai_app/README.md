@@ -31,13 +31,20 @@ You can access this valuable dataset using the following link: [Customer Support
 
 We found this dataset to be a perfect fit for modeling our problem statement, especially when dealing with customer inquiries seeking assistance. Moreover, we identified a specific ticket type for software bugs within the dataset, which became the foundation for generating emails expressing frustration and anger from customers. 🤬😡
 
+# Data Generation Notebook 📊
+
+In our notebooks section, you'll discover the 'data_creation_from_ticket_dataset.ipynb' notebook file. This notebook plays a crucial role in our project as it effectively utilizes the customer support ticket dataset to craft a dataset that aligns perfectly with our use case.
+
+## Dataset Creation 📈
+
+Upon successfully running this notebook, you'll be rewarded with the freshly minted 'product_sentiment_analysis.csv' dataset. We've conveniently organized this dataset within a dedicated 'data' folder for effortless access and seamless integration into our project.
+
 ### Leveraging OpenAI 🌐
 
-For generating **emails expressing frustration and anger from customers**, we put OpenAI's capabilities to work, allowing us to create a dataset tailored to our use case. 🤯
+For generating **emails expressing frustration and anger from customers** as well as **happy emails** we put OpenAI's capabilities to work, allowing us to create a dataset tailored to our use case. 🤯
 
-### Generating Happy Email 🌟
 
-In contrast, for generating **happy emails** that praise product features, we again turned to OpenAI's impressive capabilities. 🙌
+
 
 By combining our custom model with OpenAI's expertise, we've crafted a prototype solution to handle product categorization, email sentiment analysis, and even generate compelling product titles. 🌈💼
 
