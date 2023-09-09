@@ -1,36 +1,73 @@
+# Project README
 
-## Creating Custom Datasets
+## Hybrid Approach for Product Categorization, Email Sentiment Analysis, and Product Title Generation
 
-To train text classification models and a custom NER model, you need to create your own email datasets. Collect emails related to your products and label them accordingly for sentiment analysis and product categorization.
+In our approach, we combined the strengths of custom modeling and OpenAI's capabilities to address the tasks of product categorization, email sentiment analysis, and product title generation. Below, we provide an overview of our approach and the resources we used.
 
-## Building Text Classification Models
+### Custom Model Development
 
-1. **Prepare and preprocess your dataset:** Use data preprocessing techniques to clean and prepare your email dataset.
+We developed a custom model to tackle product categorization and email sentiment analysis. This model was specifically tailored to our problem statement.
 
-2. **Build and train text classification models:** Implement text classification models to analyze email sentiments, such as customer satisfaction, anger, or requests for help.
+### Dataset Selection
 
-## Training a Custom NER Model
+To construct our custom model, we needed a relevant dataset. After an extensive search, we found an open-source dataset on Kaggle known as the "Customer Support Ticket Dataset."
 
-To categorize emails into products (e.g., CRM, ERP, APPOINTMENT_BOOKING_SOFTWARE, OTHERS), you can train a custom Named Entity Recognition (NER) model.
+#### [Customer Support Ticket Dataset](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset)
 
-1. **Create a labeled dataset:** Annotate your email dataset with product labels using a tool like Prodigy or spaCy's `Matcher`.
+- This dataset encompasses customer support tickets from various tech products.
+- It covers inquiries related to hardware issues, software bugs, network problems, account access, data loss, and other support-related topics.
+- The dataset provides valuable information about the customer, the purchased product, ticket types, ticket channels, ticket statuses, and other pertinent details.
 
-2. **Train the NER model:** Utilize spaCy's training pipeline to train a custom NER model on the labeled dataset.
+### Utilizing the Dataset
 
-## Running the `custom_ai_app`
+We found this dataset to be highly relevant for modeling our problem statement, particularly when dealing with customer inquiries that involved requests for assistance. Additionally, within the dataset, we identified a ticket type for software bugs, which we believed could be used to generate emails expressing frustration and anger from customers. We employed OpenAI to create a similar dataset tailored to our use case.
 
-After creating custom datasets and training the required models, you can run the `custom_ai_app`:
+### Email Generation
 
-1. **Navigate to the `custom_ai_app` directory:**
+For generating positive emails that praise product features, we harnessed the capabilities of OpenAI to create such content.
+
+Our hybrid approach combines the strengths of custom modeling with the versatility of OpenAI, resulting in effective solutions for product categorization, email sentiment analysis, and product title generation.
+
+🚀 Happy modeling and analysis! 📊📧🤖
 
 
-The `custom_ai_app` will launch, allowing you to analyze email sentiments and categorize products based on your trained models.
 
-## Custom AI App Features
 
-- **Email Sentiment Analysis:** Analyze customer sentiments in emails, including happiness, anger, or requests for assistance.
 
-- **Product Categorization:** Automatically categorize emails into product categories (e.g., CRM, ERP, APPOINTMENT_BOOKING_SOFTWARE, OTHERS) using the custom NER model.
 
-Enjoy exploring and utilizing the Custom AI Application for Email Sentiment Analysis and Product Categorization! 🧠📊🔖
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🚀 Custom Product Categorization & Email Sentiment Analysis
+
+Welcome to our hybrid approach repository! Here, we've combined the power of custom models for product categorization and email sentiment analysis with OpenAI's capabilities for title generation.
+
+## 📚 Dataset
+
+To create our own model, we gathered data from the [Customer Support Ticket Dataset](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset) available on Kaggle. This dataset contains customer support tickets for various tech products, encompassing hardware issues, software bugs, network problems, account access, data loss, and more. It provides valuable information about the customer, product, ticket type, channel, status, and other relevant details.
+
+We found this dataset useful for modeling our problem statement, particularly in generating data related to customer frustrations and anger (e.g., software bug tickets) and happy emails praising product features.
+
+## 🧩 Our Approach
+
+- **Hybrid Model**: We developed a custom model for product categorization and email sentiment analysis, harnessing the strengths of both.
+
+- **Title Generation**: Leveraging OpenAI's capabilities, we utilized title generation for certain tasks.
 
