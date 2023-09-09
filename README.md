@@ -22,6 +22,9 @@ The prototype includes the following key features: 🧩
 
 3. **Title Generation:** Meaningful titles are derived for each category, summarizing the key feedback themes. 📌📝
 
+![Screenshot from 2023-09-09 14-01-38](https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis/assets/37154253/23b825b0-6052-4415-9d64-2d224e899fd9)
+
+
 ## Approaches
 
 ### 1. Custom AI Model Approach
