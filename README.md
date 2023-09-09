@@ -22,6 +22,24 @@ The prototype includes the following key features: 🧩
 
 3. **Title Generation:** Meaningful titles are derived for each category, summarizing the key feedback themes. 📌📝
 
+## Approaches
+
+### OpenAI Language Model
+🌐 Harnessing the Power of Large Language Models (LLMs) 🌐
+
+Recognizing the limitations of the custom model, we turned to OpenAI's powerful language models. Leveraging state-of-the-art LLMs and prompt engineering techniques, we were able to achieve remarkable results in email categorization and product feedback analysis. This approach demonstrates the incredible potential of AI technologies.
+
+You can explore the source code for this approach in the `openai_app` directory.
+
+## Results
+Our Proof of Concept (POC) showcases the effectiveness of both approaches, highlighting the versatility of AI technologies in solving complex problems.
+
+- The custom model approach provides valuable insights into the challenges of building specialized models and the importance of data quality.
+
+- The OpenAI Language Model approach demonstrates the ease of use and impressive performance that can be achieved with cutting-edge language models.
+
+🚀 Feel free to explore the code and documentation in each directory to learn more about our journey and solutions!
+
 ## Getting Started
 
 To explore this POC, follow these steps:
