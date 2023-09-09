@@ -33,11 +33,11 @@ We found this dataset to be a perfect fit for modeling our problem statement, es
 
 # Data Generation Notebook 📊
 
-In our notebooks section, you'll discover the 'data_creation_from_ticket_dataset.ipynb' notebook file. This notebook plays a crucial role in our project as it effectively utilizes the customer support ticket dataset to craft a dataset that aligns perfectly with our use case.
+In our notebooks section, you'll discover the **'data_creation_from_ticket_dataset.ipynb'** notebook file. This notebook plays a crucial role in our project as it effectively utilizes the customer support ticket dataset to craft a dataset that aligns perfectly with our use case.
 
 ## Dataset Creation 📈
 
-Upon successfully running this notebook, you'll be rewarded with the freshly minted 'product_sentiment_analysis.csv' dataset. We've conveniently organized this dataset within a dedicated 'data' folder for effortless access and seamless integration into our project.
+Upon successfully running this notebook, you'll be rewarded with the freshly minted **'product_sentiment_analysis.csv'** dataset. We've conveniently organized this dataset within a dedicated **'data'** folder for effortless access and seamless integration into our project.
 
 ## Leveraging OpenAI for Dataset Generation 🌐
 
@@ -49,13 +49,13 @@ In our innovative approach, we rely on OpenAI's advanced capabilities to generat
 
 ## Data Generation Process 🧠
 
-Located inside the 'src' folder, you'll find the 'data_generator.py' file. This file employs prompt engineering techniques to harness OpenAI's power in creating datasets. It generates a dataset with 450 rows and compiles them into an 'email.txt' file, providing us with a diverse set of emails for different use cases.
+Located inside the **'src'** folder, you'll find the **'data_generator.py'** file. This file employs prompt engineering techniques to harness OpenAI's power in creating datasets. It generates a dataset with 450 rows and compiles them into an **'email.txt'** file, providing us with a diverse set of emails for different use cases.
 
-**Folder Name:** 'src'
+**Folder Name:** **'src'**
 
-**Python File Name:** 'data_generator.py'
+**Python File Name:** **'data_generator.py'**
 
-**Output Generated:** 'email.txt'
+**Output Generated:** **'email.txt'**
 
 ## Enhancing Data Variability 🔄
 
@@ -75,22 +75,22 @@ In our project, we've developed two distinct models: one for product categorizat
 
 To train the customer sentiment analysis model, follow these steps:
 
-1. Navigate to the 'notebooks' directory.
-2. Open the 'email_sentiment_classification_using_tfidf.ipynb' notebook.
-3. Execute the notebook meticulously to train the custom model.
+1. Navigate to the **'notebooks'** directory.
+2. Open the **'email_sentiment_classification_using_tfidf.ipynb'** notebook.
+3. Execute the notebook gracefully to train the custom model.
 
 Upon successful execution, the following three models will be generated and stored inside the 'models' directory:
 
-- `classifier_model.pkl`: The trained model for customer sentiment analysis.
-- `label_encoder.pkl`: A label encoder for mapping sentiment labels.
-- `tfidf_vectorizer.pkl`: The TF-IDF vectorizer used for text feature extraction.
+- **`classifier_model.pkl`:** The trained model for customer sentiment analysis.
+- **`label_encoder.pkl`:** A label encoder for mapping sentiment labels.
+- **`tfidf_vectorizer.pkl`:** The TF-IDF vectorizer used for text feature extraction.
 
 These models collectively enable the analysis of customer sentiment in emails.
 Please ensure that you follow the instructions in the notebook diligently to train the model effectively.
 
 # Model Inference for Email Sentiment Analysis 📝
 
-After successfully training the customer sentiment analysis model using the 'email_sentiment_classification_using_tfidf.ipynb' notebook, you can perform inference using the 'email_sentiment_classification_inference.ipynb' notebook.
+After successfully training the customer sentiment analysis model using the **'email_sentiment_classification_using_tfidf.ipynb'** notebook, you can perform inference using the **'email_sentiment_classification_inference.ipynb'** notebook.
 
 To utilize the trained model for sentiment analysis, follow these steps:
 
@@ -111,25 +111,25 @@ Feel free to use this notebook to gain insights into email sentiments after trai
 To achieve product categorization, we've developed a custom Named Entity Recognition (NER) model using the Spacy library. For training this NER model, you can utilize the following notebook:
 
 ## Training Notebook 📘
-- **Notebook File**: 'email_product_classification_using_ner.ipynb'
+- **Notebook File**: **'email_product_classification_using_ner.ipynb'**
 
 During the training process, several outputs are generated:
 
 **NER Configuration Files**:
-1. `base_config.cfg`: The base configuration file.
-2. `config.cfg`: The custom configuration file.
-3. `train.spacy`: The trained NER model.
+1. **`base_config.cfg`:** The base configuration file.
+2. **`config.cfg`:** The custom configuration file.
+3. **`train.spacy`:** The trained NER model.
 
 These configuration files and the trained model are stored inside the 'ner_config' directory.
 
 **Model Checkpoints**:
-1. `model-best` and `model-last` folders: These folders, located inside the 'models' directory, contain checkpoints of the trained NER model.
+1. **`model-best`** and **`model-last`** folders: These folders, located inside the **'models'** directory, contain checkpoints of the trained NER model.
 
 ## Model Inference for Product Categorization 🧭
 
 For a practical demonstration of how the NER model works in inference mode, you can explore the following notebook:
 
-- **Inference Notebook**: 'email_product_classification_using_ner_inference.ipynb'
+- **Inference Notebook**: **'email_product_classification_using_ner_inference.ipynb'**
 
 This notebook, located within the 'notebooks' directory, showcases the application of the trained NER model, allowing you to witness its functionality in action.
 
