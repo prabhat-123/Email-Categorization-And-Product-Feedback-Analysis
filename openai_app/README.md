@@ -49,4 +49,6 @@ Make sure to keep the FastAPI server running in the background to enable real-ti
 
 Enjoy exploring the project and analyzing customer emails with ease! 📧🔍
 
+![Screenshot from 2023-09-09 14-01-38](https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis/assets/37154253/23b825b0-6052-4415-9d64-2d224e899fd9)
+
 
