@@ -105,6 +105,34 @@ This notebook is designed to facilitate the practical application of the trained
 
 Feel free to use this notebook to gain insights into email sentiments after training the model.
 
+# Custom NER Model Training for Product Categorization 🏷️
+
+To achieve product categorization, we've developed a custom Named Entity Recognition (NER) model using the Spacy library. For training this NER model, you can utilize the following notebook:
+
+## Training Notebook 📘
+- **Notebook File**: 'email_product_classification_using_ner.ipynb'
+
+During the training process, several outputs are generated:
+
+**NER Configuration Files**:
+1. `base_config.cfg`: The base configuration file.
+2. `config.cfg`: The custom configuration file.
+3. `train.spacy`: The trained NER model.
+
+These configuration files and the trained model are stored inside the 'ner_config' directory.
+
+**Model Checkpoints**:
+1. `model-best` and `model-last` folders: These folders, located inside the 'models' directory, contain checkpoints of the trained NER model.
+
+## Model Inference for Product Categorization 🧭
+
+For a practical demonstration of how the NER model works in inference mode, you can explore the following notebook:
+
+- **Inference Notebook**: 'email_product_classification_using_ner_inference.ipynb'
+
+This notebook, located within the 'notebooks' directory, showcases the application of the trained NER model, allowing you to witness its functionality in action.
+
+Feel free to delve into these resources for an in-depth understanding of our product categorization approach using custom NER models.
 
 
 
