@@ -31,6 +31,14 @@ You can access this valuable dataset using the following link: [Customer Support
 
 We found this dataset to be a perfect fit for modeling our problem statement, especially when dealing with customer inquiries seeking assistance. Moreover, we identified a specific ticket type for software bugs within the dataset, which became the foundation for generating emails expressing frustration and anger from customers. 🤬😡
 
+# Setting Up the Virtual Environment and Running Jupyter Notebook 🚀
+
+Before executing any code, make sure to activate your virtual environment. After activating the virtual environment in your terminal just use the following command to execute jupyter notebook.
+```
+jupyter notebook
+```
+## Note: Data Generation step is not mandatory. You can just download the data from the google drive below. And just experiment with the notebooks for model training.
+
 # Data Generation Notebook 📊
 
 In our notebooks section, you'll discover the **'data_creation_from_ticket_dataset.ipynb'** notebook file. This notebook plays a crucial role in our project as it effectively utilizes the customer support ticket dataset to craft a dataset that aligns perfectly with our use case.
