@@ -39,10 +39,18 @@ In our notebooks section, you'll discover the 'data_creation_from_ticket_dataset
 
 Upon successfully running this notebook, you'll be rewarded with the freshly minted 'product_sentiment_analysis.csv' dataset. We've conveniently organized this dataset within a dedicated 'data' folder for effortless access and seamless integration into our project.
 
-### Leveraging OpenAI 🌐
+## Leveraging OpenAI for Dataset Generation 🌐
 
-For generating **emails expressing frustration and anger from customers** as well as **happy emails** we put OpenAI's capabilities to work, allowing us to create a dataset tailored to our use case. 🤯
+In our innovative approach, we rely on OpenAI's advanced capabilities to generate datasets tailored to our unique use case. We create two types of emails: those expressing frustration and anger from customers, and those conveying happiness and satisfaction. 
 
+
+## Data Generation Process 🧠
+
+Located inside the 'src' folder, you'll find the 'data_generator.py' file. This file employs prompt engineering techniques to harness OpenAI's power in creating datasets. It generates a dataset with 450 rows and compiles them into an 'email.txt' file, providing us with a diverse set of emails for different use cases.
+
+## Enhancing Data Variability 🔄
+
+Within the same 'src' folder, you'll discover the 'data_preprocessing.py' file. This script plays a vital role in processing our generated data, introducing variations to mitigate the repetition of phrases that can occur during email generation by OpenAI. The outcome of this process is the 'prod_email.csv' file, a rich dataset that we utilize to train our custom models for both email sentiment analysis and product categorization.
 
 
 
