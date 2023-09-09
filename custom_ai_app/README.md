@@ -99,6 +99,10 @@ In our project, we've developed two distinct models: one for product categorizat
 
 To train the customer sentiment analysis model, follow these steps:
 
+Before executing any code, make sure to activate your virtual environment. After activating the virtual environment in your terminal just use the following command to execute jupyter notebook.
+```
+jupyter notebook
+```
 1. Navigate to the **'notebooks'** directory.
 2. Open the **'email_sentiment_classification_using_tfidf.ipynb'** notebook.
 3. Execute the notebook gracefully to train the custom model.
