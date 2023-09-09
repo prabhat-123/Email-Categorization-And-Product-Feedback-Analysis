@@ -67,6 +67,16 @@ Within the same 'src' folder, you'll discover the 'data_preprocessing.py' file. 
 
 **Output Generated:** **'prod_email.csv'**
 
+# Alternative Dataset Source 📦
+
+We recommend against generating a custom dataset using OpenAI due to potential cost considerations, as generating 450 datasets using OpenAI can incur significant expenses.
+
+Instead, you can conveniently download the pre-generated dataset from the following Google Drive link:
+
+[Download Generated Dataset](https://drive.google.com/file/d/1OZF8Us5AQBHIwV_SQWV9Rm7fNCz_WuFB/view?usp=drive_link)
+
+This pre-existing dataset is readily available for your use, saving you both time and resources.
+
 # Custom Model Training 🧠
 
 In our project, we've developed two distinct models: one for product categorization and another for customer sentiment analysis.
