@@ -50,6 +50,53 @@ The prototype includes the following key features: 🧩
 
 **Results:** Using GPT-3, we achieved impressive results in email categorization and feedback analysis.
 
+# 🛠️ Technology & Tech Stacks Used
+
+The Email Categorization and Product Feedback Analysis POC project was built using Python 3.8.0 and leveraged various libraries and frameworks to achieve its objectives. 🐍💻
+
+## Technologies Used
+
+1. **Python 3.8.0** 🐍
+   - Python served as the core programming language for developing the project. Its versatility and rich ecosystem of libraries made it an ideal choice.
+
+## Python Libraries & Frameworks
+
+2. **uvicorn==0.22.0** 🚀
+   - Uvicorn was used to run the FastAPI web application, enabling the deployment of RESTful APIs for email categorization and analysis.
+
+3. **pandas==1.3.5** 🐼
+   - Pandas played a crucial role in data manipulation and analysis. It allowed for efficient handling of datasets and data transformation.
+
+4. **fastapi==0.97.0** 🚀
+   - FastAPI facilitated the development of web APIs, enabling seamless communication between different components of the project.
+
+5. **streamlit==1.24.0** 🌟
+   - Streamlit was used to create a user-friendly and interactive web interface for showcasing project results and insights.
+
+6. **python-multipart==0.0.6** 📦
+   - Python Multipart was utilized for handling file uploads and data transmission within the application.
+
+7. **openai==0.27.8** 🤖
+   - The OpenAI library enabled integration with the GPT-3 language model for natural language processing tasks, including email analysis and prompt engineering.
+
+8. **spacy==3.5.3** 🌐
+   - spaCy provided essential NLP capabilities, such as text preprocessing, entity recognition, and linguistic analysis.
+
+9. **gdown==4.7.1** 📥
+   - gdown was used for downloading large datasets and model files from online sources, facilitating data acquisition.
+
+10. **scikit-learn==1.2.2** 🧠
+    - Scikit-learn contributed to machine learning tasks, including model training, evaluation, and classification.
+
+11. **seaborn==0.12.2** 📊
+    - Seaborn enhanced data visualization, allowing for the creation of informative and visually appealing plots and charts.
+
+## Python Environment
+
+To reproduce the results of this project, it is recommended to set up a Python 3.8.0 environment, as the project has not been tested on other Python versions.
+
+These technologies and libraries collectively empowered the Email Categorization and Product Feedback Analysis POC, enabling efficient data processing, analysis, and interaction.
+
 
 ## Getting Started
 
