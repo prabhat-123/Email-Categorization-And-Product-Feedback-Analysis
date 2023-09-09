@@ -130,8 +130,10 @@ These configuration files and the trained model are stored inside the 'ner_confi
 For a practical demonstration of how the NER model works in inference mode, you can explore the following notebook:
 
 - **Inference Notebook**: **'email_product_classification_using_ner_inference.ipynb'**
+- **Output** : ![Screenshot from 2023-09-09 22-43-04](https://github.com/prabhat-123/Email-Categorization-And-Product-Feedback-Analysis/assets/37154253/f3b216c2-751b-48dd-9a76-711fc6c47ecb)
 
-This notebook, located within the 'notebooks' directory, showcases the application of the trained NER model, allowing you to witness its functionality in action.
+
+This notebook, located within the **'notebooks'** directory, showcases the application of the trained NER model, allowing you to witness its functionality in action.
 
 Feel free to delve into these resources for an in-depth understanding of our product categorization approach using custom NER models.
 
