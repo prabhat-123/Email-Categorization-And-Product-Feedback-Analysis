@@ -105,6 +105,7 @@ This notebook is designed to facilitate the practical application of the trained
 
 Feel free to use this notebook to gain insights into email sentiments after training the model.
 
+
 # Custom NER Model Training for Product Categorization 🏷️
 
 To achieve product categorization, we've developed a custom Named Entity Recognition (NER) model using the Spacy library. For training this NER model, you can utilize the following notebook:
