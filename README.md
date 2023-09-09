@@ -100,21 +100,27 @@ To explore this POC, follow these steps:
    ```
       
    ##### Recommended
-   For installing a virtual environment on Anaconda Prompt(Windows):
+   For installing a virtual environment on Anaconda Prompt:
    ```
    conda install -c anaconda virtualenv
    ```
-
+   ##### ii) Create a virtual environment by using the following commands:
    ```
    python -m venv env
    ```
+   Here env is the name of the environment you like to choose.
 
-4. Activate the virtual environment:
+    ###### Recommended On Anaconda Prompt 
+    ```
+    conda create -n env python=3.8.0
+    ```
+   ##### iii) Activate the virtual environment:
+   
    - For Windows:
      ```
      env\Scripts\activate
      ```
-   - For macOS/Linux:
+   - For Linux:
      ```
      source env/bin/activate
      ```
