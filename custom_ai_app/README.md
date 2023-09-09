@@ -37,7 +37,9 @@ Before executing any code, make sure to activate your virtual environment. After
 ```
 jupyter notebook
 ```
-## Note: Data Generation step is not mandatory. You can just download the data from the google drive below. And just experiment with the notebooks for model training.
+## Note: Data Generation step is not mandatory. You can just download the data from the google drive below.
+[Download Generated Dataset](https://drive.google.com/file/d/1OZF8Us5AQBHIwV_SQWV9Rm7fNCz_WuFB/view?usp=drive_link)
+**And just experiment with the notebooks after Custom Model Training section**
 
 # Data Generation Notebook 📊
 
