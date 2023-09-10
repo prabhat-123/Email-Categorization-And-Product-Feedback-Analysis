@@ -67,6 +67,7 @@ class ProductSentimentAnalyzer:
                 "customer_sentiment": ""
                 "product_title": ,
                 "product": "product_name": "",  "product_category": "",
+                You only need to add these mentioned keys in a json response. Donot generate anything extra besides it.
                 """
                 }
             ],
